@@ -1,20 +1,31 @@
 {
-  "author": "Kaushik",
-  "name": "Show_cal",
-  "description": "Display todays date",
-  "version": "0.1.1",
-  "repository": {
-    "url": ""
+  "name": "show_cal",
+  "version": "0.0.8",
+  "description": "Displays a monthly calendar if you give month and year as input",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "main": "./lib/calender",
-  "keywords": [
-    "simple calender app"
-   ],
+  "preferGlobal": true,
   "bin": {
-    "show_cal": "./bin/show_cal"
+    "show-cal": "./bin/show_cal.js"
   },
-  "dependencies": {},
-  "engines": {
-    "node": "*"
-  }
+  "author": {
+    "name": "Kaushik Kumaran"
+  },
+  "license": "MIT",
+  "keywords": [
+    "calendar",
+    "console",
+    "display calendar in console"
+  ],
+  "dependencies": {
+    "cli-table": "^0.3.1"
+  },
+  "readme": "## Features\r\n\r\n- Show_cal module display a neat calander for the months and year you specify.\r\nFunctions available\r\n- DispCal(month,year) - displays the calender for that particular month\r\n- ShowCal command Displays the calendar for the current month\r\nshow-cal command can be used to displays the calendar\r\n\r\n## Installation\r\n\r\n```bash    \r\nnpm install show_cal\r\n```\r\n## How to use\r\n  ```javascript\r\n    var show_cal = require('show_cal');\r\n    show_cal.DispCal(12,1993);\r\n    var show_cal = require('show_cal');\r\n    show_cal.ShowCal();\r\n    show_cal can be used anywhere on the command-line\r\n   ```\r\n## Credits\r\n\r\n- Kaushik Kumaran (https://www.facebook.com/kaushik.kumaran1)\r\n\r\n## License \r\n\r\n(The MIT License)\r\n\r\nCopyright (c) 2015 Soliton Technologies;\r\n\r\nPermission is hereby granted, free of charge, to any person obtaining\r\na copy of this software and associated documentation files (the\r\n'Software'), to deal in the Software without restriction, including\r\nwithout limitation the rights to use, copy, modify, merge, publish,\r\ndistribute, sublicense, and/or sell copies of the Software, and to\r\npermit persons to whom the Software is furnished to do so, subject to\r\nthe following conditions:\r\n\r\nThe above copyright notice and this permission notice shall be\r\nincluded in all copies or substantial portions of the Software.\r\n\r\nTHE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,\r\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\r\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\r\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\r\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\r\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\r\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.",
+  "readmeFilename": "Readme.md",
+  "_id": "show_cal@0.0.8",
+  "_shasum": "38c3f11c5e05b678f086cbcbd28e69e5d0a0f417",
+  "_from": "show_cal@",
+  "_resolved": "https://registry.npmjs.org/show_cal/-/show_cal-0.0.8.tgz"
 }
